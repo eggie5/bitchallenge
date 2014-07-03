@@ -17,7 +17,7 @@ Install gems:
 `bundle install`
 
 This is a sinatra app. To setup the database (sqlite3) run :
-`./lib/server_ctl -s_`
+`./lib/server_ctl -s`
 
 To run:
 `rackup`
