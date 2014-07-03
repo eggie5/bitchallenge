@@ -1,0 +1,15 @@
+To sell your bitcoins for a larger value (USD), just fill out this form!
+
+%form{ :action => "/deposits", :method => "post"}
+  %fieldset
+    %ol
+      %li
+        %label{:for => "name"} Name:
+        %input{:type => "text", :name => "name", :class => "text"}
+      %li
+        %label{:for => "mail"} from:
+        %input{:type => "text", :name => "from", :class => "text"}
+      %li
+        %label{:for => "mail"} Amount (BTC):
+        %input{:type => "text", :name => "amount", :class => "text"}
+    %input{:type => "submit", :value => "Next", :class => "button"}
